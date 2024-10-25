@@ -45,9 +45,12 @@ pip install -r requirements.txt
 
 1. Run the Streamlit application:
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
-
+or if error streamlit not found
+```bash
+python -m streamlit run main.py
+```
 2. Open your browser and navigate to the URL shown in the terminal (typically http://localhost:8501)
 
 3. Enter a password to analyze its strength
@@ -63,10 +66,6 @@ password-strength-analyzer/
 ├── .gitignore            # Git ignore rules
 ├── LICENSE               # Project license
 ├── README.md            # Project documentation
-│
-├── tests/               # Test files
-│   ├── __init__.py
-│   └── test_analyzer.py
 │
 └── docs/               # Additional documentation
     ├── API.md
