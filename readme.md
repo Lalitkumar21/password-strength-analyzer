@@ -57,7 +57,7 @@ streamlit run app.py
 ```
 password-strength-analyzer/
 │
-├── app.py                 # Main application file
+├── main.py                 # Main application file
 ├── requirements.txt       # Project dependencies
 ├── .env.example          # Example environment variables
 ├── .gitignore            # Git ignore rules
